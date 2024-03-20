@@ -107,32 +107,6 @@ h6 {
 #header.header-inner-pages {
   background: rgba(40, 58, 90, 0.9);
 }
- 
-#header .logo {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-#header .logo a {
-  color: #000000;
-}
-/* Default styles */
-/* #header .logo img {
-  max-height: 100%; /* Set the max-height to 100% */
- */
-
-/* Media query for smaller screens */
-/* @media only screen and (max-width: 767px) {
-  #header .logo img {
-    max-height: 80%; Adjust the max-height for smaller screens */
-  
- */
- */
 
 
 /*--------------------------------------------------------------
@@ -295,7 +269,7 @@ h6 {
 }
 
 .navbar-mobile {
-  position: fixed;
+  position: absolute;
   overflow: hidden;
   top: 0;
   right: 0;
